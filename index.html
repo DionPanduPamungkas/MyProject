@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- Icon Website -->
+	<link rel="icon" type="img/jpg" href="img/icon-creativox.jpg">
+</head>
+<body>
+
+	<section>
+		<div class="logo">
+			<a href="">
+				<!-- <img src="img/cretivox-web-logo.png" alt=""> -->
+				Cretivox
+			</a>
+		</div>
+		<img src="img/1.jpg" alt="Images" class="bg">
+		<div class="content">
+			<h2>Creativox Broadcasting Network</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat atque similique veritatis, delectus quasi nesciunt dolorum placeat rem sint non dignissimos dolorem eum nisi dolor.</p>
+			<a href="">Get Started</a>
+		</div>
+		<p class="copyright">Creativox &copy; 2k20.</p>
+	</section>
+	<div class="toggle" onclick="toggle();"></div>
+	<div class="nav">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Team</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+		<div class="sosmed">
+			<ul>
+				<li><a href=""><img src="img/facebook-square.svg" alt="Social Media"></a></li>
+				<li><a href=""><img src="img/instagram-square.svg" alt="Social Media"></a></li>
+				<li><a href=""><img src="img/twitter-square.svg" alt="Social Media"></a></li>
+			</ul>
+			<!-- <a href="" class="email"><img src="" alt=""></a> -->
+		</div>
+	</div>
+	<script>
+		function toggle() {
+			// body...
+			var toggle = document.querySelector('.toggle');
+			var nav = document.querySelector('.nav');
+			toggle.classList.toggle('active');
+			nav.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
